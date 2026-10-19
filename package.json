@@ -1,0 +1,50 @@
+{
+  "name": "puzzle-walks-view",
+  "version": "1.0.0",
+  "description": "Puzzle Walks View — jogo de quebra-cabeça com 70 fases e Easter egg secreto",
+  "main": "main.js",
+  "author": "Walks Drone View",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "br.vlog.walksdroneview.puzzlewalksview",
+    "productName": "Puzzle Walks View",
+    "asar": true,
+    "files": [
+      "index.html",
+      "main.js",
+      "assets/**/*",
+      "LEIA-ME.txt",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/puzzle-walks-view.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Puzzle Walks View"
+    }
+  },
+  "productName": "Puzzle Walks View"
+}

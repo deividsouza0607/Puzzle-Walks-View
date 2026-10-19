@@ -1,0 +1,29 @@
+PUZZLE WALKS VIEW — WALKs DRONE VIEW
+
+Jogo de quebra-cabeça para Windows 10/11.
+
+RECURSOS
+- 70 fases com 70 imagens sem repetição.
+- Tela inicial com título, botão Iniciar e regras.
+- Cada fase começa trancada por correntes e cadeado; escolha uma de três chaves. Somente a chave correta libera o tabuleiro.
+- Cronômetro de 1 minuto começa somente depois de abrir o cadeado.
+- Trilha sonora instrumental sintetizada, ativada após iniciar o jogo, com botão para ligar/desligar.
+- Moedas, dicas, recordes, áudios de vitória/derrota e 100 conquistas.
+- Duas pastas de imagens: assets/fases1 (fases 1–40) e assets/fases2 (fases 41–80); o jogo usa a logo na fase 1, a foto especial na fase 2 e imagens únicas das fases 3–70.
+
+GERAR INSTALADOR
+1. Extraia o ZIP.
+2. Instale Node.js LTS em https://nodejs.org/.
+3. Execute GERAR_INSTALADOR.bat e aguarde.
+4. Procure o instalador em dist.
+
+O instalador EXE precisa ser compilado no Windows; o ZIP contém o projeto-fonte.
+
+
+ATUALIZAÇÃO PUZZLE WALKS VIEW
+- A tela inicial solicita o nome do jogador.
+- Ao concluir as 70 fases, salva nome, tempo total e data no Hall da Fama local do navegador/computador.
+- O Hall da Fama mostra até os 10 melhores tempos; os registros ficam neste dispositivo/navegador.
+- Correntes metálicas mais largas cruzam o tabuleiro em X e contornam a moldura; ao destravar, se soltam com animação.
+- Trilha sonora sintetizada de aventura, com melodia ascendente, baixo e batidas graves, inicia após interação do jogador.
+- O instalador Windows ainda precisa ser gerado no Windows usando GERAR_INSTALADOR.bat.

@@ -1,0 +1,11 @@
+PUZZLE WALKS VIEW — GERAR INSTALADOR PARA PC
+
+Requisitos: Windows 10/11 64 bits, Node.js LTS e internet na primeira compilação.
+
+1. Extraia todos os arquivos do ZIP.
+2. Instale o Node.js LTS: https://nodejs.org/
+3. Dê dois cliques em GERAR_INSTALADOR.bat.
+4. Aguarde a instalação das dependências e a compilação.
+5. O instalador EXE será criado na pasta dist, se a compilação terminar sem erros.
+
+Este pacote contém o projeto-fonte; o EXE não foi pré-compilado nem testado neste ambiente.
