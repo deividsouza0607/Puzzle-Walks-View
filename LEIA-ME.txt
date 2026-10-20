@@ -27,3 +27,8 @@ ATUALIZAÇÃO PUZZLE WALKS VIEW
 - Correntes metálicas mais largas cruzam o tabuleiro em X e contornam a moldura; ao destravar, se soltam com animação.
 - Trilha sonora sintetizada de aventura, com melodia ascendente, baixo e batidas graves, inicia após interação do jogador.
 - O instalador Windows ainda precisa ser gerado no Windows usando GERAR_INSTALADOR.bat.
+
+CORREÇÃO DE CONTROLES PARA APK / CELULAR
+- No celular, toque uma peça e depois toque na peça de destino para trocar.
+- Eventos de toque e clique sintético são tratados para evitar seleção dupla no Android WebView.
+- O tabuleiro desativa gestos de rolagem/zoom durante a movimentação das peças.
